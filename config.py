@@ -9,18 +9,18 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("27731023"))
+API_HASH = getenv("e5533bd0cafa7bfa95205b2aaed57bcb")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("6333624410:AAE80MnoUMn56KkpzpY1uF5t2VQrgrzbfbY")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","UTTAM470")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Ironmanhindigaming")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","PURVI_MUSIC_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME","@rajaof_bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME")
+BOT_NAME = getenv("Tʀᴏʟʟ ᴍᴜsɪᴄ")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME")
+ASSUSERNAME = getenv("@Systemgang454")
 # ---------------------------------------------------------
 
 
@@ -31,7 +31,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 #---------------------------------------------------------------
 
 # ----------------------------------------------------------------
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 170000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Purvi_UPdates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/purvi_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/IROTECHBOTZ0")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/IROTECH")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -83,7 +83,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/purvi_support")
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
-AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
+AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "90000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "9999999"))
 # --------------------------------------------------------------------------------
