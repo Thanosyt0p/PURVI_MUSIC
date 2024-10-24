@@ -16,11 +16,11 @@ BOT_TOKEN = getenv("6333624410:AAE80MnoUMn56KkpzpY1uF5t2VQrgrzbfbY")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","Ironmanhindigaming")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","@rajaof_bot")
+BOT_USERNAME = getenv("BOT_USERNAME","rajaof_bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("Tʀᴏʟʟ ᴍᴜsɪᴄ")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("@Systemgang454")
+ASSUSERNAME = getenv("Systemgang454")
 # ---------------------------------------------------------
 
 
@@ -31,7 +31,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 #---------------------------------------------------------------
 
 # ----------------------------------------------------------------
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 170000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
