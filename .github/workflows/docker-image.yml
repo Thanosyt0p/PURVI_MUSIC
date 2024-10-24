@@ -15,10 +15,10 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-     run: apt-get update \
-    && apt-get install -y --no-install-recommends ffmpeg \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
+     run: apt-get update 
+    run: apt-get install -y --no-install-recommends ffmpeg \
+    run: apt-get clean
+    run: rm -rf /var/lib/apt/lists/*
 run: pip3 install --no-cache-dir -U -r requirements.txt
 
 run: bash start
